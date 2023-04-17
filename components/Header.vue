@@ -1,11 +1,20 @@
 <template>
   <header>
-    <h2>header</h2>
+    <p>header</p>
   </header>
 </template>
 
-<style>
+<style lang="scss">
   header {
-    border: solid 5px #00A2E8;
+    height: 180px;
+    border: solid 15px #00A2E8;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+    p {
+      position: absolute;
+      top: 55px;
+      left: 350px;
+    }
   }
 </style>
